@@ -1,0 +1,170 @@
+*{
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.main-container{
+    border-radius: 10px;
+    background-color: hsl(244, 38%, 16%);
+    margin: 85px 25px;
+}
+.main-container .desktop-img{
+    display: none;
+}
+.main-container img{
+    width:100%;
+    border-radius: 10px 10px 0 0;
+}
+.main-container .img-content{
+    position: relative;
+    border-radius: 10px 10px 0 0;
+}
+.main-container .img-content .overlayer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: hsla(277, 64%, 61%, 0.5);
+    border-radius: 10px 10px 0 0;
+}
+
+.text-content{
+    padding: 45px 35px 40px;
+    width: 100%;
+    text-align: center;
+}
+.text-content .first-section h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 25px;
+}
+.text-content .first-section h1 span{
+    color: hsl(277, 64%, 61%);
+}
+.text-content .first-section p{
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 50px;
+}
+.second-section p{
+    font-size: 13px;
+    color:  hsla(0, 0%, 100%, 0.6);
+}
+.second-section .amount{
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+.second-section .companies{
+    margin-bottom: 35px;
+}
+.second-section .templates{
+    margin-bottom: 35px;
+}
+
+
+@media only screen and (min-width:460px) {
+    .main-container{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+@media only screen and (min-width:600px) {
+    .main-container{
+        margin: 100px 70px;
+    }
+}
+
+@media only screen and (min-width:645px) {
+    .main-container{
+        margin: 100px 85px;
+    }
+}
+@media only screen and (min-width:645px) {
+    .main-container{
+        margin: 100px 100px;
+    }
+}
+@media only screen and (min-width:710px) {
+    .main-container{
+        margin: 100px 110px;
+    }
+}
+@media only screen and (min-width:800px) {
+    .main-container{
+        margin: 100px 125px;
+    }
+    .text-content .first-section{
+        margin-left: 120px;
+        margin-right:120px
+    }
+}
+@media only screen and (min-width:1072px){
+    .text-content .second-section{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 120px;
+        margin-right:120px;
+    }
+}
+
+@media only screen and (min-width:1195px) {
+    .main-container{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 175px 165px;
+    }
+    .main-container .img-content{
+        flex-grow: 1;
+        flex-basis: 50%;
+    }
+    .main-container .mobile-img{
+        display: none;
+    }
+    .main-container .desktop-img{
+        display:inline-block;
+        
+    }
+    .main-container .text-content{
+        flex-grow: 1;
+        flex-basis: 50%;
+        flex-direction: column;
+        text-align: left;
+        padding: 75px 120px 65px 70px;
+    }
+    .main-container .first-section{
+        margin-left: 0;
+        margin-right:0
+    }
+    .main-container .text-content h1{
+        margin-bottom: 35px;
+    }
+    .main-container .text-content .first-section p{
+        margin-bottom: 80px;
+    }
+    .main-container .text-content .second-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 0;
+        margin-right:0;
+    }
+    .main-container .second-section .amount{
+        margin-bottom: 15px;
+    }
+    .main-container img{
+        border-radius: 0 10px 10px 0;
+        height: 100%;
+    }
+    .main-container .img-content .overlayer{
+        border-radius: 0 10px 10px 0;
+    }
+}
