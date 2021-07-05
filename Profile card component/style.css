@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kumbh Sans',sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.top-bg-circle{
+    position: absolute;
+    top:-500px;
+    left: -768px;
+}
+.bottom-bg-circle{
+    position: absolute;
+    bottom: -500px;
+    right: -768px;
+}
+
+.main-container{
+    border-radius: 20px;
+    margin: auto;
+    width: 326px;
+    height: 374px;
+    position: relative;
+    overflow: hidden;
+}
+.main-container .top-part{
+    height: 140px;
+    width: 100%;
+}
+.main-container .bottom-part{
+    height: 234px;
+    background-color: white;
+}
+.main-container #profile-img{
+    position: absolute;
+    top: 85px;
+    left: 110px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.main-container .person-info{
+    text-align: center;
+    padding-top: 76px;
+    padding-bottom: 28px;
+    width: 100%;
+    border-bottom: 1px solid hsl(0, 0%, 59%);
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    font-size: 13px;
+}
+.person-info span, .light-font{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+.person-info .light-font{
+    font-size: 10px;
+}
+.main-container .follow-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+.main-container .follow-info div{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 29px;
+}
+.main-container .follow-info .light-font{
+    font-size: 7px;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width:792px) {
+    .main-container{
+        width: 350px;
+    }
+    .top-bg-circle{
+        top:-480px;
+        left: -670px;
+    }
+    .bottom-bg-circle{
+        bottom: -480px;
+        right: -670px;
+    }
+}
+
+@media screen and (min-width:1112px) {
+    .top-bg-circle{
+        top: -500px;
+        left: -480px;
+    }
+    .bottom-bg-circle{
+        bottom: -600px;
+        right: -450px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .top-bg-circle{
+        top: -485px;
+        left: -284px;
+    }
+    .bottom-bg-circle{
+        bottom: -634px;
+        right: -253px;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .main-container{
+        width: 90%;
+    }
+    .main-container #profile-img{
+        left: 30%;
+    }
+}
+@media screen and (max-width:200px) {
+    .main-container #profile-img{
+        position: absolute;
+        top: 85px;
+        left: 30%;
+        border-radius: 50%;
+        border: 5px solid white;
+        width: 65%;
+    }
+}
