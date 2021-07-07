@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Spartan', sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.top-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bottom-bg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.desktop{
+    display: none;
+}
+.main-container{
+    width: 87.26%;
+    margin: 81px auto 99px;   
+}
+
+/* -----Hero----- */
+
+#hero{
+    text-align: center;
+    margin-bottom: 47px;
+}
+#hero h1{
+    color: hsl(300, 43%, 22%);
+    font-size: 35px;
+    font-weight: 700;
+}
+#hero p{
+    color: hsl(303, 10%, 53%);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 14px;
+    line-height: 1.6em;
+}
+
+/* -----Reviews-Boxes----- */
+
+.reviews-box{
+    color: hsl(300, 43%, 22%);
+    font-size: 11px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 16px;
+    background-color: hsl(300, 24%, 96%);
+}
+.review-bottom{
+    margin-bottom: 49px;
+}
+.reviews-box img{
+    margin-top: 16px;
+    margin-bottom: 11px;
+
+}
+.reviews-box p{
+    margin-bottom: 14px;
+}
+.reviews-box, .comment-box{
+    border-radius: 10px;
+}
+
+/* -----Buyer Comment Box----- */
+
+.comment-box{
+    background-color: hsl(300, 43%, 22%);
+    margin-bottom: 16px;
+    padding: 38px 33px;
+    font-size: 11px;
+}
+.bottom-comment-box{
+    margin-bottom: 0;
+}
+.comment-box img{
+    border-radius: 50%;
+    margin-right: 24px;
+    width: 40px;
+}
+.buyer-name{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.buyer-name h4{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+.buyer-name .pink{
+    color: hsl(333, 80%, 67%);
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.comment-box p{
+    line-height: 1.6em;
+    color: hsl(300, 24%, 96%);
+    font-weight: 500;
+}
+
+@media screen and (min-width:1300px) {
+    body{
+        height: 100vh;
+    }
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: inline;
+    }
+    .main-container{
+        width: 1110px;
+        margin-top: 121px;
+        margin-bottom: 94px;
+    }
+
+/* -----Hero----- */
+
+    #hero{
+        text-align: left;
+        width: 426px;
+        height: 234px;
+        margin-bottom: 74px;
+    }
+    #hero h1{
+        font-size: 42px;
+    }
+    .float{
+        display: flex;
+        justify-content: space-between;
+    }
+
+/* -----Review Boxes-----     */
+
+    .reviews-box{
+        width: 445px;
+        height: 57px;
+        display: flex;
+        align-items: center;
+        padding-left: 24px;
+        margin-top: 16px;
+        margin-bottom: 0;
+        margin-left: 94px;
+    }
+    .review-top{
+        margin-left: 0;
+    }
+    .review-mid{
+        margin-left: 47px;
+    }
+    .reviews-box img{
+        margin-left: 8px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .reviews-box p{
+        margin-bottom: 0;
+        margin-left: 33px;
+    }
+
+/* -----Buyer Comment Boxes----- */
+
+    .comment-box{
+        width: 350px;
+        height: 234px;
+        margin-bottom: 0;
+        margin-top: 34px;
+    }
+    .top-comment{
+        margin-top: 0px;
+    }
+    .mid-comment{
+        margin-top:17px;
+    }
+}
