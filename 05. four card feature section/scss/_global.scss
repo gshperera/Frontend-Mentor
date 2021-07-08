@@ -1,0 +1,25 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $Very-Light-Gray;
+    font-family: Poppins, sans-serif;
+    padding-top: 92px;
+    padding-bottom: 78px;
+    @include morethan(820px){
+        padding-top: 91px;
+        padding-bottom: 80px;;
+    }
+}
+
+.bold{
+    font-weight: 600;
+    color: $Very-Dark-Blue;
+}
+.medium{
+    font-weight: 400;
+    color: $Grayish-Blue;
+}
+

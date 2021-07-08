@@ -1,0 +1,27 @@
+header{
+    width: 293px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 78px;
+
+    @include morethan(455px){
+        width: 311px;
+    }
+    @include morethan(585px){
+        width: 400px;
+    }
+    @include morethan(820px){
+        width: 503px;
+        margin-bottom: 36px;
+    }
+    h2{
+        font-size: 18px;
+        color: $Very-Dark-Blue;
+    }
+    .lighter{
+        font-weight: 200;
+    }
+    p{
+        font-size: 12px;
+    }
+}

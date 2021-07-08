@@ -1,0 +1,62 @@
+.box{
+    width: 311px;
+    padding: 32px;
+    box-shadow: 2px 5px 10px $Grayish-Blue;
+    border-radius: 5px;
+    margin: 30px auto;
+    font-size: 9px;
+    height: 222px;
+    position: relative;
+    @include morethan(585px){
+        width: 400px;
+    }
+    @include morethan(820px){
+        width: 230px;
+        height: 180px;
+        margin: 30px 15px;
+    }
+    @include morethan(975px){
+        width: 280px;
+        height: 192px;
+    }
+    @include morethan(1200px){
+        width: 311px;
+        height: 222px;
+    }
+
+    h3{
+        font-size: 11px;
+    }
+    img{
+        position: absolute;
+        right: 32px;
+        bottom: 32px;
+        @include morethan(820px){
+            width: 40px;
+        }
+        @include morethan(1200px){
+            width: 64px;
+        }
+    }
+
+}
+
+#cyan{
+    border-top: 4px solid $Cyan;
+}
+#red{
+    border-top: 4px solid $Red;
+}
+#orange{
+    border-top: 4px solid $Orange;
+}
+#blue{
+    border-top: 4px solid $Blue;
+}
+.flex-row{
+    @include morethan(820px){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

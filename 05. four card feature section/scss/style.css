@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: Poppins, sans-serif;
+  padding-top: 92px;
+  padding-bottom: 78px;
+}
+
+@media only screen and (min-width: 820px) {
+  body {
+    padding-top: 91px;
+    padding-bottom: 80px;
+  }
+}
+
+.bold {
+  font-weight: 600;
+  color: #4c4e61;
+}
+
+.medium {
+  font-weight: 400;
+  color: #a3a5ae;
+}
+
+header {
+  width: 293px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 78px;
+}
+
+@media only screen and (min-width: 455px) {
+  header {
+    width: 311px;
+  }
+}
+
+@media only screen and (min-width: 585px) {
+  header {
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  header {
+    width: 503px;
+    margin-bottom: 36px;
+  }
+}
+
+header h2 {
+  font-size: 18px;
+  color: #4c4e61;
+}
+
+header .lighter {
+  font-weight: 200;
+}
+
+header p {
+  font-size: 12px;
+}
+
+.box {
+  width: 311px;
+  padding: 32px;
+  -webkit-box-shadow: 2px 5px 10px #a3a5ae;
+          box-shadow: 2px 5px 10px #a3a5ae;
+  border-radius: 5px;
+  margin: 30px auto;
+  font-size: 9px;
+  height: 222px;
+  position: relative;
+}
+
+@media only screen and (min-width: 585px) {
+  .box {
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  .box {
+    width: 230px;
+    height: 180px;
+    margin: 30px 15px;
+  }
+}
+
+@media only screen and (min-width: 975px) {
+  .box {
+    width: 280px;
+    height: 192px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .box {
+    width: 311px;
+    height: 222px;
+  }
+}
+
+.box h3 {
+  font-size: 11px;
+}
+
+.box img {
+  position: absolute;
+  right: 32px;
+  bottom: 32px;
+}
+
+@media only screen and (min-width: 820px) {
+  .box img {
+    width: 40px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .box img {
+    width: 64px;
+  }
+}
+
+#cyan {
+  border-top: 4px solid #45d3d3;
+}
+
+#red {
+  border-top: 4px solid #ea5353;
+}
+
+#orange {
+  border-top: 4px solid #fcaf4a;
+}
+
+#blue {
+  border-top: 4px solid #549ef2;
+}
+
+@media only screen and (min-width: 820px) {
+  .flex-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
