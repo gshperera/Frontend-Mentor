@@ -1,0 +1,89 @@
+#testimonials {
+  @include morethan(1000px) {
+    display: flex;
+    justify-content: space-between;
+    width: 80.55%;
+    margin: auto;
+  }
+  img {
+    display: block;
+  }
+  .testimonial {
+    width: 74.71%;
+    height: inherit;
+    background-color: $Testimonials-Blue;
+    border-radius: 5px;
+    margin: auto;
+    padding: 22px 30px 18px 18px;
+    font-size: 9px;
+    margin-bottom: 22px;
+    position: relative;
+
+    @include morethan(600px) {
+      width: 65%;
+    }
+    @include morethan(750px) {
+      width: 58%;
+    }
+    @include morethan(1000px) {
+      margin: 0;
+      width: 31.29%;
+      height: inherit;
+      padding: 46px 32px 30px 27px;
+      font-size: 14px;
+    }
+
+    p {
+      margin-bottom: 15px;
+      @include morethan(1000px) {
+        margin-bottom: 24px;
+      }
+    }
+
+    .quotes-img {
+      width: 21px;
+      position: absolute;
+      top: -16px;
+      left: 4px;
+      z-index: -1;
+      @include morethan(1000px) {
+        width: 53px;
+        top: -35px;
+        left: -8px;
+      }
+    }
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+
+    .profile-picture {
+      width: 21px;
+      height: 21px;
+      margin-right: 8px;
+      border-radius: 50%;
+      @include morethan(1000px) {
+        width: 26px;
+        height: 26px;
+      }
+    }
+
+    .name {
+      h3 {
+        font-size: 9px;
+        @include morethan(1000px) {
+          font-size: 12px;
+        }
+      }
+
+      p {
+        font-size: 7px;
+        margin-bottom: 0;
+        @include morethan(1000px) {
+          font-size: 9px;
+        }
+      }
+    }
+  }
+}

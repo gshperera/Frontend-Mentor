@@ -1,0 +1,160 @@
+footer {
+  background-color: $Footer-bg-Blue;
+  width: 100%;
+  position: absolute;
+  bottom: -850px;
+  z-index: -1;
+  margin: 0;
+
+  @include lessthan(335px) {
+    bottom: -900px;
+  }
+  @include lessthan(250px) {
+    bottom: -950px;
+    margin: auto;
+  }
+  @include morethan(1440px) {
+    bottom: -420px;
+    padding-bottom: 82px;
+  }
+
+  img {
+    display: block;
+  }
+
+  .logo {
+    margin-top: 227px;
+    margin-left: 35px;
+    margin-bottom: 42px;
+    width: 160px;
+    @include morethan(1440px) {
+      margin-top: 200px;
+      margin-left: 120px;
+      margin-bottom: 37px;
+      width: 176px;
+    }
+    @include lessthan(250px) {
+      width: 80%;
+      margin: 227px auto 42px;
+    }
+  }
+
+  .footer-info {
+    @include morethan(1440px) {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    #location {
+      display: flex;
+      @include morethan(1440px) {
+        width: 25.138%;
+      }
+
+      img {
+        width: 13px;
+        height: 18px;
+        margin-right: 27px;
+        @include morethan(1440px) {
+          width: 15px;
+          height: 20px;
+          margin-left: 33.15%;
+        }
+      }
+      p {
+        width: 72.64%;
+        margin-top: -4.2px;
+        margin-bottom: 19px;
+        @include morethan(1440px) {
+          width: 88.4%;
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    #phone {
+      display: flex;
+      align-items: center;
+      margin-bottom: 22px;
+      img {
+        width: 15px;
+        height: 15px;
+        margin-right: 21px;
+      }
+    }
+
+    #email {
+      display: flex;
+      align-items: center;
+      margin-bottom: 78px;
+      img {
+        width: 20px;
+        height: 16px;
+        margin-right: 17px;
+      }
+    }
+    .contacts {
+      @include morethan(1440px) {
+        margin-left: 6.81%;
+      }
+    }
+
+    .about-us {
+      margin-bottom: 29px;
+      @include morethan(1440px) {
+        margin-bottom: 0;
+      }
+      p {
+        margin-bottom: 16px;
+        @include morethan(1440px) {
+          margin-left: 147px;
+        }
+      }
+    }
+
+    .contact-us {
+      margin-bottom: 73px;
+      @include morethan(1440px) {
+        margin-bottom: 0;
+      }
+      p {
+        margin-bottom: 16px;
+        @include morethan(1440px) {
+          margin-left: 80px;
+        }
+      }
+    }
+
+    #location,
+    #phone,
+    #email,
+    .about-us,
+    .contact-us {
+      margin-left: 25px;
+      @include morethan(1440px) {
+        margin-left: 0;
+      }
+    }
+
+    .icons {
+      display: flex;
+      justify-content: space-between;
+      width: 94px;
+      margin: auto;
+      margin-bottom: 39px;
+      @include morethan(1440px) {
+        width: 8.33%;
+      }
+      #fb-icon,
+      #twitter-icon,
+      #instagram-icon {
+        font-size: 13px;
+        width: 27px;
+        height: 27px;
+        border: 1px solid white;
+        text-align: center;
+        border-radius: 50%;
+        line-height: 27px;
+      }
+    }
+  }
+}

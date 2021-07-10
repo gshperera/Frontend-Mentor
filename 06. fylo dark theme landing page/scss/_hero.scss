@@ -1,0 +1,111 @@
+#hero {
+  text-align: center;
+  @include morethan(1000px) {
+    background-color: $Intro-Blue;
+  }
+
+  #hero-header {
+    background-color: $Intro-Blue;
+    background-image: url(../images/bg-curvy-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    @include morethan(1000px) {
+      background-image: none;
+    }
+
+    #intro-img {
+      width: 80.5882%;
+      margin: auto;
+      padding-top: 23px;
+
+      @include morethan(400px) {
+        width: 70%;
+        margin-top: 0;
+      }
+      @include morethan(900px) {
+        width: 49.861%;
+      }
+    }
+
+    h2 {
+      font-size: 19px;
+      width: 80%;
+      margin: auto;
+      margin-top: 32px;
+
+      @include morethan(535px) {
+        font-size: 22px;
+        margin-top: 35px;
+      }
+      @include morethan(650px) {
+        width: 49.861%;
+      }
+      @include morethan(900px) {
+        width: 46.94%;
+        font-size: 39px;
+        margin-top: 39.3px;
+      }
+    }
+  }
+  #hero-content {
+    @include morethan(1000px) {
+      background-color: $Intro-Blue;
+      background-image: url("../images/bg-curvy-desktop.svg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
+
+    p {
+      font-size: 13px;
+      width: 80%;
+      margin: auto;
+      margin-top: 17.5px;
+      margin-bottom: 30px;
+
+      @include morethan(535px) {
+        width: 49.8%;
+        margin-top: 20px;
+      }
+      @include morethan(900px) {
+        width: 40.27%;
+        font-size: 19px;
+        margin-top: 38.6px;
+        margin-bottom: 33.3px;
+      }
+    }
+
+    input {
+      font-size: 13px;
+      height: 43px;
+      width: 217px;
+      border-radius: 50px;
+      background-color: $Blue;
+      color: $White;
+      font-weight: 700;
+      font-family: $Raleway;
+      border: none;
+      margin-bottom: 119px;
+
+      @include morethan(900px) {
+        font-size: 15px;
+        width: 280px;
+        height: 56px;
+        margin-bottom: 167px;
+      }
+      @include lessthan(280px) {
+        width: 80%;
+        height: 36px;
+        margin-bottom: 80px;
+      }
+
+      &:hover,
+      :active {
+        background-color: $Cyan;
+        cursor: pointer;
+      }
+    }
+  }
+}

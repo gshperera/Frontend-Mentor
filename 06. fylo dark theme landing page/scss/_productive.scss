@@ -1,0 +1,101 @@
+#productive {
+  margin-bottom: 153px;
+  @include morethan(1000px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 84.86%;
+    margin: auto;
+    margin-bottom: 179px;
+  }
+  img {
+    display: block;
+  }
+  .productive-img {
+    width: 80.88%;
+    margin: auto;
+    margin-top: 144.5px;
+    margin-bottom: 42px;
+
+    @include morethan(690px) {
+      width: 75%;
+    }
+    @include morethan(740px) {
+      width: 65%;
+    }
+    @include morethan(1000px) {
+      width: 50.32%;
+      margin: 0;
+    }
+  }
+
+  .content {
+    width: 84.71%;
+    margin: auto;
+    @include morethan(690px) {
+      width: 75%;
+    }
+    @include morethan(740px) {
+      width: 65%;
+    }
+    @include morethan(1000px) {
+      width: 44.76%;
+      margin: 0;
+    }
+  }
+
+  h3 {
+    font-size: 16px;
+    margin-bottom: 15.3px;
+    @include morethan(1000px) {
+      font-size: 34px;
+    }
+    @include morethan(1140px) {
+      width: 80%;
+    }
+    @include morethan(1424px) {
+      width: 75%;
+    }
+    @include morethan(1430px) {
+      width: 60.87%;
+      font-size: 39px;
+    }
+  }
+
+  p {
+    font-size: 12px;
+    margin-bottom: 16.2px;
+    @include morethan(1000px) {
+      font-size: 15.5px;
+    }
+  }
+  a {
+    font-size: 10px;
+    color: $Cyan;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 118px;
+    position: relative;
+    @include morethan(1440px) {
+      font-size: 15px;
+      width: 166px;
+    }
+  }
+  a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: $Cyan;
+  }
+  a:hover,
+  a:active {
+    color: $White;
+    a::after {
+      background-color: $White;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // border: 1px solid yellow;
+}
+
+body {
+  font-size: 14px;
+  font-family: $open-sans;
+  background-color: $White;
+  color: $White;
+  position: relative;
+  background-color: $Main-bg-Blue;
+}
+
+h2,
+input,
+h3 {
+  font-family: $Raleway;
+  line-height: 1.6em;
+}
+
+p {
+  color: $t-white;
+  line-height: 1.6em;
+}
+
+img {
+  display: block;
+}

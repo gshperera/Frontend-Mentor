@@ -1,0 +1,104 @@
+#sign-up {
+  margin: auto;
+  margin-top: 123px;
+  border-radius: 5px;
+  width: 89.71%;
+  text-align: center;
+  padding: 41px 26px 34px;
+  background-color: $Testimonials-Blue;
+  box-shadow: 5px 5px 10px $Footer-bg-Blue;
+
+  @include morethan(450px) {
+    width: 75%;
+  }
+  @include morethan(650px) {
+    width: 70%;
+  }
+  @include morethan(800px) {
+    padding: 45px 45px 37px;
+  }
+
+  @include morethan(1440px) {
+    width: 59.86%;
+    margin-top: 205px;
+    padding: 51px 77px 41px;
+  }
+
+  h3 {
+    font-size: 16px;
+    @include morethan(1440px) {
+      font-size: 25px;
+    }
+  }
+  p {
+    font-size: 12px;
+    margin-top: 16.5px;
+    margin-bottom: 30.5px;
+    @include morethan(800px) {
+      font-size: 15px;
+    }
+  }
+
+  input {
+    width: 100%;
+    height: 43px;
+    border-radius: 50px;
+    border: none;
+
+    @include morethan(1440px) {
+      height: 48px;
+    }
+
+    &::placeholder {
+      font-size: 9px;
+
+      @include morethan(1440px) {
+        font-size: 12px;
+      }
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+
+  input[type="email"] {
+    padding-left: 26px;
+    margin-bottom: 22px;
+
+    @include morethan(800px) {
+      width: 50%;
+      margin: 0;
+      margin-right: 23px;
+    }
+    @include morethan(1440px) {
+      width: 67.8%;
+    }
+  }
+  input[type="submit"] {
+    background-color: $Blue;
+    color: $White;
+    font-size: 12px;
+    font-weight: 700;
+    @include morethan(800px) {
+      width: 30%;
+    }
+    @include morethan(1440px) {
+      width: 28.25%;
+      font-size: 14px;
+    }
+
+    &:hover,
+    &:active {
+      background-color: $Cyan;
+      cursor: pointer;
+    }
+  }
+  .input {
+    @include morethan(800px) {
+      display: flex;
+    }
+    @include morethan(1440px) {
+      display: flex;
+    }
+  }
+}

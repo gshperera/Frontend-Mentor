@@ -1,0 +1,123 @@
+#features {
+  text-align: center;
+  @include morethan(1000px) {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 138px;
+  }
+
+  .flex {
+    @include morethan(1000px) {
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin: auto;
+    }
+    @include morethan(1200px) {
+      width: 60.9%;
+    }
+  }
+  div {
+    width: 83.82%;
+    margin: auto;
+    @include morethan(922px) {
+      width: 70%;
+    }
+    @include morethan(1200px) {
+      margin: 0;
+    }
+  }
+  img {
+    margin: auto;
+  }
+  h3 {
+    font-size: 17px;
+    @include morethan(1200px) {
+      font-size: 19px;
+    }
+  }
+  p {
+    font-size: 12px;
+    @include morethan(1200px) {
+      font-size: 13px;
+    }
+  }
+
+  #access {
+    margin-bottom: 79.5px;
+
+    @include morethan(1000px) {
+      width: 300px;
+      margin-top: 5px;
+      margin-bottom: 97px;
+    }
+    @include morethan(1440px) {
+      width: 339px;
+    }
+    img {
+      width: 57px;
+      margin-bottom: 30px;
+      @include morethan(1200px) {
+        width: 83px;
+        margin-bottom: 27.3px;
+      }
+    }
+  }
+
+  #security {
+    margin-bottom: 85.5px;
+    @include morethan(1000px) {
+      width: 300px;
+      margin-bottom: 99px;
+    }
+
+    @include morethan(1440px) {
+      width: 378px;
+    }
+    img {
+      width: 48px;
+      margin-bottom: 27px;
+      @include morethan(1200px) {
+        width: 68px;
+        margin-bottom: 22.3px;
+      }
+    }
+  }
+
+  #collaboration {
+    margin-bottom: 87.5px;
+    @include morethan(1000px) {
+      width: 300px;
+      margin-bottom: 0;
+    }
+
+    @include morethan(1440px) {
+      width: 357px;
+    }
+    img {
+      width: 59px;
+      margin-bottom: 32px;
+      @include morethan(1200px) {
+        width: 84px;
+        margin-bottom: 32.3px;
+      }
+    }
+  }
+
+  #file {
+    @include morethan(1000px) {
+      width: 300px;
+    }
+    @include morethan(1440px) {
+      width: 337px;
+    }
+    img {
+      width: 63px;
+      margin-bottom: 35px;
+      @include morethan(1200px) {
+        width: 91px;
+        margin-bottom: 36.3px;
+      }
+    }
+  }
+}
