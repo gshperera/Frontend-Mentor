@@ -9,6 +9,6 @@ Frontend Mentor Challenges
 
 [04. Social proof section](https://gshperera.github.io/Frontend-Mentor/Social-proof-section/)
 
-[05. Four card feature section](https://gshperera.github.io/Frontend-Mentor/Four-card-feature-section/
+[05. Four card feature section](https://gshperera.github.io/Frontend-Mentor/Four-card-feature-section/)
 
 [06. Fylo dark theme landing page](https://gshperera.github.io/Frontend-Mentor/Fylo-dark-theme-landing-page/)
