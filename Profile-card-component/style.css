@@ -5,6 +5,7 @@
 }
 
 body{
+    width: 100%;
     font-family: 'Kumbh Sans',sans-serif;
     background-color: hsl(185, 75%, 39%);
     height: 100vh;
