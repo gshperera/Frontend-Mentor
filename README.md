@@ -1,6 +1,5 @@
 # Frontend-Mentor
 Frontend Mentor Challenges
--[See All Challenges Here](https://gshperera.github.io/Frontend-Mentor/)
 
 [01. Stats preview card component](https://gshperera.github.io/Frontend-Mentor/Stats-preview-card-component/)
 
