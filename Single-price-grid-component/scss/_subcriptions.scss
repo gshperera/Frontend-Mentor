@@ -1,0 +1,37 @@
+#subcriptions {
+  background-color: $cyan;
+  padding: 24.2px 25px 24px;
+  color: white;
+  @include morethan(530px) {
+    border-radius: 0 0 0 10px;
+  }
+  @include morethan(1000px) {
+    padding: 41.6px 40px 45px;
+  }
+
+  h3 {
+    margin-bottom: 20px;
+  }
+
+  p.light-font {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  span {
+    font-size: 21px;
+    font-weight: 700;
+    color: white;
+  }
+
+  input {
+    background-color: $bright-yellow;
+    height: 48px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 30px;
+    border: none;
+    width: 99.23%;
+    box-shadow: 2px 2px 5px green;
+  }
+}

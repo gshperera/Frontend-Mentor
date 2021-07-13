@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+html {
+  background-color: black;
+}
+
+body {
+  background-color: $light-gray;
+  border: 1px solid rgba(0, 0, 0, 0);
+  @include morethan(530px) {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.container {
+  width: 82.933%;
+  margin: 72px auto 76px;
+  line-height: 1.6em;
+  border-radius: 10px;
+  box-shadow: 0 0 5px $grayish-blue;
+
+  @include morethan(530px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include morethan(1000px) {
+    width: 44.097%;
+  }
+}
+
+h3 {
+  font-size: 16px;
+  @include morethan(800px) {
+    font-size: 18px;
+  }
+}
+p {
+  font-size: 13px;
+  @include morethan(800px) {
+    font-size: 15px;
+  }
+}

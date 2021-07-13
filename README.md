@@ -12,3 +12,5 @@ Frontend Mentor Challenges
 [05. Four card feature section](https://gshperera.github.io/Frontend-Mentor/Four-card-feature-section/)
 
 [06. Fylo dark theme landing page](https://gshperera.github.io/Frontend-Mentor/Fylo-dark-theme-landing-page/)
+
+[07. Single price grid component](https://gshperera.github.io/Frontend-Mentor/Single-price-grid-component/)
