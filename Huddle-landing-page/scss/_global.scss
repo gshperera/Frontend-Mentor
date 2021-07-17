@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // border: 1px solid red;
+}
+html {
+  background-color: black;
+}
+body {
+  background-color: $violet;
+  background-image: url("../images/bg-mobile.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 38px;
+  padding-bottom: 38px;
+
+  @include morethan(1000px) {
+    background-image: url("../images/bg-desktop.svg");
+    background-size: cover;
+    padding-top: 65px;
+    padding-bottom: 40px;
+  }
+}
+.container {
+  width: 79.466%;
+  @include morethan(1000px) {
+    display: flex;
+    width: 88.88%;
+    position: relative;
+  }
+}

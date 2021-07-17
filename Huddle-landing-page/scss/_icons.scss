@@ -1,0 +1,26 @@
+#icons {
+  text-align: center;
+  @include morethan(1000px) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  #facebook,
+  #twitter,
+  #instagram {
+    border: 1px solid white;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 13px;
+    margin-right: 5px;
+
+    &:hover {
+      color: $Soft-magenta;
+      border-color: $Soft-magenta;
+      cursor: pointer;
+    }
+  }
+}

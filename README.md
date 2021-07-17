@@ -5,12 +5,10 @@ Frontend Mentor Challenges
 
 [02. 3 column preview card component](https://gshperera.github.io/Frontend-Mentor/3-column-preview-card-component/)
 
-[03. Profile card component](https://gshperera.github.io/Frontend-Mentor/Profile-card-component/)
+[03. Social proof section](https://gshperera.github.io/Frontend-Mentor/Social-proof-section/)
 
-[04. Social proof section](https://gshperera.github.io/Frontend-Mentor/Social-proof-section/)
+[04. Four card feature section](https://gshperera.github.io/Frontend-Mentor/Four-card-feature-section/)
 
-[05. Four card feature section](https://gshperera.github.io/Frontend-Mentor/Four-card-feature-section/)
+[05. Fylo dark theme landing page](https://gshperera.github.io/Frontend-Mentor/Fylo-dark-theme-landing-page/)
 
-[06. Fylo dark theme landing page](https://gshperera.github.io/Frontend-Mentor/Fylo-dark-theme-landing-page/)
-
-[07. Single price grid component](https://gshperera.github.io/Frontend-Mentor/Single-price-grid-component/)
+[06. Huddle landing page](https://gshperera.github.io/Frontend-Mentor/Huddle-landing-page/)

@@ -1,0 +1,27 @@
+#header {
+  @include morethan(1000px) {
+    flex-basis: 54.375%;
+  }
+  #logo {
+    display: inline-block;
+    width: 121.72px;
+
+    @include morethan(555px) {
+      width: 150px;
+    }
+
+    @include morethan(800px) {
+      width: 196px;
+    }
+  }
+
+  #mockups {
+    width: 100%;
+    margin-top: 62px;
+    margin-bottom: 62px;
+
+    @include morethan(1000px) {
+      margin-top: 105px;
+    }
+  }
+}
