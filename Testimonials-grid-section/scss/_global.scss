@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 68px 6.41%;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: $light-grayish-blue;
+
+  @include morethan(830px) {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  @include morethan(1000px) {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  @include morethan(1350px) {
+    padding-left: 158px;
+    padding-right: 158px;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+  }
+}
+
+.container {
+  display: grid;
+  grid-row-gap: 23px;
+
+  @include morethan(600px) {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 23px;
+  }
+
+  @include morethan(1350px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

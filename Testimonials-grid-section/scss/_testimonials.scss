@@ -1,0 +1,121 @@
+.testimonials {
+  border-radius: 10px;
+  padding: 24px 31px 29px;
+  color: $white;
+  font-weight: 500;
+
+  h4 {
+    font-size: 13px;
+  }
+  h3 {
+    font-size: 19px;
+    margin-bottom: 11.25px;
+  }
+  p {
+    font-size: 12px;
+    opacity: 70%;
+    line-height: 1.6em;
+  }
+
+  //-----Profile-----
+  .profile {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 18.25px;
+
+    img {
+      width: 27px;
+      height: 27px;
+      border-radius: 50%;
+      border: 1px solid $light-gray;
+      margin-right: 16px;
+    }
+
+    h4 {
+      line-height: 0.7em;
+      margin-bottom: 6.6px;
+    }
+    p {
+      line-height: 0.7em;
+      opacity: 50%;
+    }
+    h3 {
+      font-weight: 600;
+    }
+  }
+}
+
+#daniel {
+  background-color: $moderate-violet;
+  background-image: url("../images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position-x: right 23px;
+
+  @include morethan(600px) {
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+
+  @include morethan(1350px) {
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+}
+
+#jonathan {
+  background-color: $very-dark-grayish-blue;
+
+  @include morethan(600px) {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  @include morethan(1350px) {
+    grid-row: 1;
+    grid-column: 3;
+  }
+}
+
+#jeanette {
+  background-color: $white;
+  color: $very-dark-grayish-blue;
+
+  @include morethan(600px) {
+    grid-row: 2;
+    grid-column: 2;
+  }
+
+  @include morethan(1350px) {
+    grid-row: 2;
+    grid-column: 1;
+  }
+}
+
+#patrick {
+  background-color: $very-dark-blackish-blue;
+
+  @include morethan(600px) {
+    grid-row: 3;
+    grid-column: 2;
+  }
+
+  @include morethan(1350px) {
+    grid-row: 2;
+    grid-column: 2/4;
+  }
+}
+
+#kira {
+  background-color: $white;
+  color: $very-dark-grayish-blue;
+
+  @include morethan(600px) {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  @include morethan(1350px) {
+    grid-column: 4;
+    grid-row: 1/3;
+  }
+}

@@ -12,3 +12,5 @@ Frontend Mentor Challenges
 [05. Fylo dark theme landing page](https://gshperera.github.io/Frontend-Mentor/Fylo-dark-theme-landing-page/)
 
 [06. Huddle landing page](https://gshperera.github.io/Frontend-Mentor/Huddle-landing-page/)
+
+[07. Testimonials grid section](https://gshperera.github.io/Frontend-Mentor/Testimonials-grid-section/)
