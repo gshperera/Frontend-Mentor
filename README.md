@@ -14,3 +14,5 @@ Frontend Mentor Challenges
 [06. Huddle landing page](https://gshperera.github.io/Frontend-Mentor/Huddle-landing-page/)
 
 [07. Testimonials grid section](https://gshperera.github.io/Frontend-Mentor/Testimonials-grid-section/)
+
+[08. Fylo data storage component](https://gshperera.github.io/Frontend-Mentor/Fylo-data-storage-component/)

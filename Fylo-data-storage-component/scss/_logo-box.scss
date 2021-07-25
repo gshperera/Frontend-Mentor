@@ -1,0 +1,29 @@
+#logo-box {
+  background-color: $dark-blue;
+  padding: 41px 40px 40px;
+  border-radius: 10px 90px 10px 10px;
+  margin-bottom: 16px;
+  @include morethan(1000px) {
+    margin: 0;
+    width: 38.04%;
+  }
+
+  .logo {
+    width: 136px;
+    margin-bottom: 33px;
+  }
+  #icons {
+    display: flex;
+
+    .icon {
+      background-color: hsl(229, 57%, 11%);
+      border-radius: 10px;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 16px;
+    }
+  }
+}

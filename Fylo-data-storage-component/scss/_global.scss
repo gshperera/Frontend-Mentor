@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  height: 100vh;
+  background-image: url("../images/bg-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include morethan(550px) {
+    background-image: none;
+    background-color: $very-dark-blue;
+  }
+}
+#desktop-back {
+  @include morethan(550px) {
+    background-image: url("../images/bg-desktop.png");
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+  }
+}
+
+#container {
+  width: 86.93%;
+  @include morethan(1000px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  @include morethan(1300px) {
+    width: 63.888%;
+  }
+}

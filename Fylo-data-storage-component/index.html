@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Link Style -->
+    <link rel="stylesheet" href="./scss/style.css">
+
+    <!-- Favicon-icon -->
+    <link rel="shortcut icon" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Fylo Data Storage Component</title>
+</head>
+<body>
+    <div id="desktop-back"></div>
+    <div id="container">
+        <div id="logo-box">
+            <img class="logo" src="./images/logo.svg" alt="logo">
+            <div id="icons">
+                <div class="document-icon icon">
+                    <img src="./images/icon-document.svg" alt="icon-document">
+                </div>
+                <div class="folder-icon icon">
+                    <img src="./images/icon-folder.svg" alt="icon-folder">
+                </div>
+                <div class="upload-icon icon">
+                    <img src="./images/icon-upload.svg" alt="icon-upload">
+                </div>
+            </div>
+        </div>
+
+        <div id="storage-info-box">
+            <p>you've used <span>815 GB</span> of your storage</p>
+            <div id="usage">
+                <div id="slider">
+                    <div id="slider-fill"><div id="slider-ball"></div></div>
+                </div>
+                <p class="usage-left-limit">0 GB</p>
+                <p class="usage-right-limit">1000 GB</p>
+                <div id="left-storage-box">
+                    <p><span class="big-font">185</span>GB LEFT</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
